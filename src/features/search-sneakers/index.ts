@@ -1,0 +1,1 @@
+export { SearchSneakers } from "./ui/SearchSneakers"

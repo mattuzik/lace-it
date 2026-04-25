@@ -1,0 +1,16 @@
+.button {
+  border-radius: rem(12);
+  padding: rem(10);
+  width: 100%;
+  border: var(--border);
+  user-select: none;
+
+  @include hover {
+    color: var(--color-light);
+    background-color: var(--color-dark);
+  }
+
+  &:active {
+    transform: translateY(3px);
+  }
+}

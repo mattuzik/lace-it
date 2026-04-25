@@ -1,0 +1,49 @@
+.heading {
+  display: grid; 
+  grid-template-columns: repeat(2, 1fr);
+  gap: rem(16);
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: rem(12);
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  color: var(--color-gray);
+  margin-left: rem(12);
+}
+
+.priceText {
+  font-weight: 500;
+}
+
+.image {
+  object-fit: cover;
+  height: rem(470);
+  width: 100%;
+
+  @include mobile {
+    height: fluid(700, 200);
+  }
+}
+
+.productWrapper {
+  margin-bottom: rem(24);
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: auto 8%;
+  gap: rem(10);
+
+  @include mobile {
+    grid-template-columns: auto 12%;
+  }
+}

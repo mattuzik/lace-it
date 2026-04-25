@@ -1,0 +1,26 @@
+.content {
+  text-align: center;
+  padding-inline: var(--container-padding-x);
+  background-color: var(--color-gray-light);
+  padding-block: rem(100);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: rem(24);
+  max-width: rem(700);
+  margin: 0 auto;
+} 
+
+.buttons {
+  display: flex;
+  gap: rem(24);
+}
+
+.text {
+  font-size: fluid(18, 16);
+  color: var(--color-gray);
+}

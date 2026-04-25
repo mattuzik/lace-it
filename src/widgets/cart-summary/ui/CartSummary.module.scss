@@ -1,0 +1,11 @@
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: rem(8);
+}
+
+.orderButton {
+  width: 100%;
+  text-align: center;
+  padding: rem(10);
+}

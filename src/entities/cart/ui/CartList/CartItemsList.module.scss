@@ -1,0 +1,6 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: fluid(40, 30);
+  margin-bottom: rem(30);
+}

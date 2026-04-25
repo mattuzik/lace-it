@@ -1,0 +1,10 @@
+.promo {
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  text-align: center;
+  padding: rem(4) 1rem;
+
+  p {
+    font-size: fluid(16, 14);
+  }
+}

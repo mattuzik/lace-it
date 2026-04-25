@@ -1,0 +1,56 @@
+.footer {
+  padding-block: rem(20);
+}
+
+.top {
+  padding-block: rem(20) rem(40);
+  display: grid;
+  grid-template-columns: 1fr auto;
+
+  @include tablet {
+    grid-template-columns: 1fr;
+  }
+}
+
+.columnTitle {
+  margin-bottom: rem(12);
+}
+
+.columnWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: fluid(48, 12);
+}
+
+.columnItems {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-gray);
+  gap: rem(8);
+}
+
+.textColumn {
+  max-width: rem(400);
+
+  p {
+    margin-top: rem(8);
+  }
+
+  @include tablet {
+    margin-bottom: rem(24);
+  }
+}
+
+.bottom {
+  border-top: rem(1) solid var(--color-gray-10);
+  padding-block: rem(10);
+}
+
+.copyright {
+  font-size: rem(16);
+  color: var(--color-gray);
+}
+
+.mainLink {
+  font-weight: 700;
+}

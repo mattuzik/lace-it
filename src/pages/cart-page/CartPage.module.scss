@@ -1,0 +1,37 @@
+.cart {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: fluid(60, 25);
+
+  @include mobile {
+    grid-template-columns: 1fr;
+  }
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: rem(24);
+}
+
+.cartColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.actionButton {
+  cursor: pointer;
+
+  @include hover {
+    opacity: 0.7;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: rem(32);
+}

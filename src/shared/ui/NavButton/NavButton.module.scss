@@ -1,0 +1,39 @@
+.button {
+  padding: fluid(16, 8) fluid(32, 16);
+  border-radius: rem(8);
+
+  @include hover {
+    opacity: 1;
+    color: var(--color-dark);
+  }
+}
+
+.black {
+  background-color: var(--color-dark);
+  border: 1px solid var(--color-dark);
+  color: var(--color-light);
+
+  @include hover {
+    background-color: var(--color-light);
+  }
+}
+
+.white {
+  color: var(--color-dark);
+  border: 1px solid var(--color-gray-10);
+
+  @include hover {
+    border: 1px solid var(--color-dark);
+  }
+}
+
+.olive {
+  color: var(--color-dark);
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+
+  @include hover {
+    background-color: transparent;
+    color: var(--color-accent);
+  }
+}

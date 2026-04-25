@@ -1,0 +1,17 @@
+.breadcrumbs {
+  padding-block: rem(10);
+}
+
+.link {
+  text-decoration: none;
+  // color: var();
+}
+
+.current {
+  user-select: none;
+  color: var(--color-gray);
+}
+
+.separator {
+  // color: var(--color-gray);
+}

@@ -1,0 +1,27 @@
+.sizeBtn {
+  cursor: pointer;
+  width: rem(45);
+  height: rem(40);
+  border: 1px solid var(--color-light);
+  border-radius: rem(6);
+
+  @include hover {
+    border-color: var(--color-dark);
+  }
+
+  &.active {
+    color: var(--color-light);
+    border-color: var(--color-dark);
+    background: var(--color-dark);
+  }
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: rem(8);
+}
+
+.wrapper {
+
+}
