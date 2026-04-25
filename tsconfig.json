@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {    
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "jsx": "react-jsx", 
+    "types": ["vite/client"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    
+    "skipLibCheck": true,
+    "strict": true
+  },
+  "include": ["src"]
+}
