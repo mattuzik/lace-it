@@ -42,7 +42,7 @@
 
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone [https://github.com](https://github.com/mattuzik/lace-it)
+    git clone https://github.com/mattuzik/lace-it
     ```
 
 2.  **Установите зависимости:**
